@@ -3,7 +3,7 @@ import Hero from "@/src/components/home/Hero";
 import Services from "@/src/components/home/Services";
 import Portfolio from "@/src/components/home/Portfolio";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import TechStack from "@/components/TechStack";
+// import TechStack from "@/components/TechStack";
 import Process from "@/src/components/home/Process";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -21,7 +21,7 @@ export default function Home() {
       <Services />
       <Portfolio />
       <WhyChooseUs />
-      <TechStack />
+      {/* <TechStack /> */}
       <Process />
       <CTA />
       <Contact />

@@ -121,10 +121,10 @@ export default function ContactPage() {
                   </h3>
 
                   <a
-                    href="tel:+917982980354"
+                    href="tel:+91987654321"
                     className="text-gray-400 hover:text-blue-400"
                   >
-                    +91 79829 80354
+                    +91 98765 43210
                   </a>
                 </div>
 

@@ -26,7 +26,7 @@ export default function CTA() {
             </a>
 
             <a
-              href="tel:+917982980354"
+              href="tel:+91987654321"
               className="px-8 py-4 rounded-xl border border-white/20 hover:bg-white/5 transition duration-300"
             >
               Schedule Call

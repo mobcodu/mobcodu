@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function NodeJSDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "LLM Integration",
-    "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Custom Node.js Development",
+    "Backend Development",
+    "REST API Development",
+    "Microservices Architecture",
+    "Real-Time Application Development",
+    "Maintenance & Support",
   ];
 
   const technologies = [
-    "OpenAI",
-    "LangChain",
-    "Python",
-    "TensorFlow",
-    "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "Node.js",
+    "Express.js",
+    "NestJS",
+    "MongoDB",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "AWS",
   ];
 
   return (
@@ -32,20 +32,20 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire Node.js Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              Node.js Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build fast, scalable and secure backend systems with our
+            experienced Node.js developers. We create APIs, web platforms,
+            SaaS products and enterprise-grade applications.
           </p>
 
         </div>
@@ -56,15 +56,14 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire Node.js Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Our Node.js developers build high-performance backend
+            applications capable of handling thousands of concurrent
+            users. We specialize in scalable architectures, APIs,
+            microservices and cloud-native solutions.
           </p>
 
         </div>
@@ -75,7 +74,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            Node.js Development Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,19 +129,10 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                Fast
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
-              </p>
-            </div>
-
-            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
-              <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
-              </h3>
-              <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
+                High-performance backend solutions.
               </p>
             </div>
 
@@ -151,7 +141,16 @@ export default function AIDevelopersPage() {
                 Scalable
               </h3>
               <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Built for millions of users and requests.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
+              <h3 className="text-4xl font-bold text-blue-500 mb-4">
+                Secure
+              </h3>
+              <p className="text-gray-400">
+                Enterprise-grade security standards.
               </p>
             </div>
 
@@ -160,7 +159,7 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Continuous support and maintenance.
               </p>
             </div>
 
@@ -186,17 +185,17 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">Developer Selection</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">Architecture Planning</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">04</h3>
-              <p className="mt-4">Deployment & Optimization</p>
+              <p className="mt-4">Development & Deployment</p>
             </div>
 
           </div>
@@ -216,35 +215,34 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                Why choose Node.js for backend development?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                Node.js offers fast performance, scalability and
+                real-time capabilities, making it ideal for modern web applications.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Do you build REST APIs and Microservices?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we develop secure REST APIs, GraphQL APIs,
+                microservices and enterprise backend architectures.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Do you provide cloud deployment support?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Yes, we deploy Node.js applications on AWS,
+                Azure, Google Cloud and Docker environments.
               </p>
             </div>
 

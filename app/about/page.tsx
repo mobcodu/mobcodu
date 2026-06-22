@@ -43,7 +43,7 @@ export default function AboutPage() {
                         {/* Left Image */}
                         <div>
                             <img
-                                src="/about/about-us.png"
+                                src="/about/aboutPage.png"
                                 alt="About Mobcodu"
                                 className="rounded-3xl border border-white/10 w-full"
                             />

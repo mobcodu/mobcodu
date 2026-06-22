@@ -15,10 +15,10 @@ export default function Navbar() {
         <div className="flex justify-start">
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo.png"
+              src="/mobLogo1.png"
               alt="Mobcodu Technologies"
-              width={110}
-              height={60}
+              width={200}
+              height={10}
               priority
             />
           </Link>

@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function PythonDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "LLM Integration",
-    "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Custom Python Development",
+    "Backend Development",
+    "AI & Machine Learning Solutions",
+    "Data Analytics & Automation",
+    "API Development & Integration",
+    "Maintenance & Support",
   ];
 
   const technologies = [
-    "OpenAI",
-    "LangChain",
     "Python",
+    "Django",
+    "FastAPI",
+    "Flask",
     "TensorFlow",
     "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "PostgreSQL",
+    "AWS",
   ];
 
   return (
@@ -32,20 +32,20 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire Python Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              Python Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build scalable web applications, AI solutions, automation
+            tools and enterprise software with our experienced Python
+            development team.
           </p>
 
         </div>
@@ -56,15 +56,15 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire Python Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Python is one of the most versatile programming languages
+            for web development, artificial intelligence, machine learning,
+            automation and data analytics. Our Python developers create
+            secure, scalable and high-performance solutions tailored to
+            your business requirements.
           </p>
 
         </div>
@@ -75,7 +75,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            Python Development Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,19 +130,10 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                AI Ready
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
-              </p>
-            </div>
-
-            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
-              <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
-              </h3>
-              <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
+                Expertise in AI, ML and intelligent automation.
               </p>
             </div>
 
@@ -151,7 +142,16 @@ export default function AIDevelopersPage() {
                 Scalable
               </h3>
               <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Solutions designed for long-term business growth.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
+              <h3 className="text-4xl font-bold text-blue-500 mb-4">
+                Secure
+              </h3>
+              <p className="text-gray-400">
+                Enterprise-grade security and performance.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Continuous support and maintenance services.
               </p>
             </div>
 
@@ -186,17 +186,17 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">Developer Selection</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">Solution Architecture</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">04</h3>
-              <p className="mt-4">Deployment & Optimization</p>
+              <p className="mt-4">Development & Deployment</p>
             </div>
 
           </div>
@@ -216,35 +216,34 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                Why choose Python for development?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                Python is flexible, easy to maintain and widely used
+                for web applications, AI, machine learning and automation.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Do you build AI and Machine Learning solutions?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we develop AI applications, machine learning models,
+                predictive analytics systems and intelligent automation tools.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Do you provide support after deployment?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Yes, we provide ongoing maintenance, monitoring,
+                optimization and technical support services.
               </p>
             </div>
 

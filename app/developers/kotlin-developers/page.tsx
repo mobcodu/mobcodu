@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function KotlinDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "LLM Integration",
-    "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Custom Kotlin App Development",
+    "Native Android Development",
+    "Kotlin Multiplatform Development",
+    "Enterprise Mobile Solutions",
+    "App Migration to Kotlin",
+    "Maintenance & Support",
   ];
 
   const technologies = [
-    "OpenAI",
-    "LangChain",
-    "Python",
-    "TensorFlow",
-    "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "Kotlin",
+    "Jetpack Compose",
+    "Android Studio",
+    "Firebase",
+    "REST APIs",
+    "Room Database",
+    "AWS",
+    "GraphQL",
   ];
 
   return (
@@ -32,20 +32,21 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire Kotlin Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              Kotlin Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build secure, scalable and high-performance Android
+            applications with our experienced Kotlin developers.
+            We create modern mobile solutions using the latest
+            Kotlin technologies and best practices.
           </p>
 
         </div>
@@ -56,15 +57,14 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire Kotlin Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Kotlin is Google's preferred language for Android development.
+            Our Kotlin developers build robust, maintainable and
+            future-ready applications with clean architecture,
+            enhanced performance and exceptional user experiences.
           </p>
 
         </div>
@@ -75,7 +75,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            Kotlin Development Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,19 +130,19 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                Modern
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
+                Latest Kotlin technologies and Android frameworks.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
+                Native
               </h3>
               <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
+                High-performance native Android applications.
               </p>
             </div>
 
@@ -151,7 +151,7 @@ export default function AIDevelopersPage() {
                 Scalable
               </h3>
               <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Enterprise-grade architecture and scalability.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Ongoing support and maintenance services.
               </p>
             </div>
 
@@ -181,22 +181,22 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">01</h3>
-              <p className="mt-4">Requirement Analysis</p>
+              <p className="mt-4">Requirement Discussion</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">Developer Selection</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">Project Kickoff</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">04</h3>
-              <p className="mt-4">Deployment & Optimization</p>
+              <p className="mt-4">Development & Delivery</p>
             </div>
 
           </div>
@@ -216,35 +216,34 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                Why choose Kotlin for Android development?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                Kotlin offers concise syntax, improved safety,
+                better performance and full support from Google.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Do you support Kotlin Multiplatform?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we build cross-platform solutions using
+                Kotlin Multiplatform for Android, iOS and Web.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Do you provide long-term maintenance?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Yes, we provide updates, monitoring, bug fixes
+                and continuous support after deployment.
               </p>
             </div>
 

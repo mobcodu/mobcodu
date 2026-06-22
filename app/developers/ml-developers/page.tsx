@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function MLDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "LLM Integration",
+    "Machine Learning Model Development",
+    "Predictive Analytics Solutions",
+    "Natural Language Processing (NLP)",
     "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Recommendation Systems",
+    "ML Model Maintenance & Optimization",
   ];
 
   const technologies = [
-    "OpenAI",
-    "LangChain",
     "Python",
     "TensorFlow",
     "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "Scikit-Learn",
+    "OpenAI",
+    "LangChain",
+    "AWS",
+    "Azure AI",
   ];
 
   return (
@@ -32,20 +32,20 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire ML Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              Machine Learning Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build intelligent AI-powered solutions with our experienced
+            Machine Learning developers. From predictive analytics to
+            computer vision and NLP, we help businesses innovate faster.
           </p>
 
         </div>
@@ -56,15 +56,15 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire ML Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Our Machine Learning developers help businesses leverage
+            artificial intelligence to automate processes, improve
+            decision-making, uncover valuable insights and create
+            innovative digital products. We build scalable ML solutions
+            tailored to your unique business needs.
           </p>
 
         </div>
@@ -75,7 +75,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            Machine Learning Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,28 +130,28 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                AI
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
+                Expertise in modern AI and ML technologies.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
+                Fast
               </h3>
               <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
+                Agile development and rapid deployment.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                Scalable
+                Secure
               </h3>
               <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Enterprise-grade security and scalability.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Continuous support and maintenance.
               </p>
             </div>
 
@@ -181,22 +181,30 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">01</h3>
-              <p className="mt-4">Requirement Analysis</p>
+              <p className="mt-4">
+                Business Requirement Analysis
+              </p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">
+                ML Expert Selection
+              </p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">
+                Model Development
+              </p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">04</h3>
-              <p className="mt-4">Deployment & Optimization</p>
+              <p className="mt-4">
+                Deployment & Optimization
+              </p>
             </div>
 
           </div>
@@ -216,35 +224,37 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                What industries can benefit from Machine Learning?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                Healthcare, Finance, Retail, Manufacturing,
+                Logistics, Education and many more industries
+                can leverage Machine Learning solutions.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Do you provide ML model maintenance?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we provide continuous monitoring,
+                optimization and maintenance services for
+                Machine Learning models.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Can you integrate AI into existing software?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Absolutely. We can integrate AI and ML
+                capabilities into your existing web,
+                mobile or enterprise applications.
               </p>
             </div>
 

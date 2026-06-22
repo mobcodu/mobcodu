@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function ChatbotDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
     "AI Chatbot Development",
-    "LLM Integration",
-    "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Custom ChatGPT Integration",
+    "Customer Support Chatbots",
+    "WhatsApp Chatbot Development",
+    "AI Virtual Assistants",
+    "Chatbot Maintenance & Support",
   ];
 
   const technologies = [
     "OpenAI",
+    "ChatGPT",
     "LangChain",
     "Python",
-    "TensorFlow",
-    "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "Node.js",
+    "WhatsApp API",
+    "Vector Database",
+    "AWS",
   ];
 
   return (
@@ -32,20 +32,20 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire Chatbot Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              Chatbot Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build intelligent AI chatbots and virtual assistants
+            powered by ChatGPT, OpenAI and advanced conversational AI
+            technologies to automate customer engagement and support.
           </p>
 
         </div>
@@ -56,15 +56,15 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire Chatbot Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Our chatbot developers create AI-powered conversational
+            solutions that improve customer experience, automate
+            repetitive tasks and increase business efficiency.
+            From customer support bots to AI virtual assistants,
+            we build scalable chatbot solutions tailored to your needs.
           </p>
 
         </div>
@@ -75,7 +75,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            Chatbot Development Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,28 +130,10 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                AI Powered
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
-              </p>
-            </div>
-
-            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
-              <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
-              </h3>
-              <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
-              </p>
-            </div>
-
-            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
-              <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                Scalable
-              </h3>
-              <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Intelligent conversational AI solutions.
               </p>
             </div>
 
@@ -160,7 +142,25 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Round-the-clock customer support automation.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
+              <h3 className="text-4xl font-bold text-blue-500 mb-4">
+                Scalable
+              </h3>
+              <p className="text-gray-400">
+                Enterprise-grade chatbot architecture.
+              </p>
+            </div>
+
+            <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
+              <h3 className="text-4xl font-bold text-blue-500 mb-4">
+                Smart
+              </h3>
+              <p className="text-gray-400">
+                Context-aware and human-like conversations.
               </p>
             </div>
 
@@ -186,12 +186,12 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">Chatbot Strategy</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">Development & Training</p>
             </div>
 
             <div className="text-center">
@@ -216,35 +216,34 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                What types of chatbots do you build?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                We build AI chatbots, customer support bots,
+                WhatsApp bots, virtual assistants and enterprise chat solutions.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Can you integrate ChatGPT into our website?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we integrate ChatGPT, OpenAI and custom AI models
+                into websites, mobile apps and business systems.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Do you provide chatbot maintenance?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Yes, we provide continuous monitoring,
+                optimization, training and support services.
               </p>
             </div>
 

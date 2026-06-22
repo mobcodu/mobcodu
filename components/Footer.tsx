@@ -12,9 +12,9 @@ export default function Footer() {
           {/* Company Info */}
           <div>
             <img
-              src="/logo.png"
+              src="/mobLogo1.png"
               alt="Mobcodu Logo"
-              className="h-12 w-auto mb-4"
+              className="h-auto w-auto mb-4"
             />
 
             <div className="inline-block">
@@ -91,7 +91,7 @@ export default function Footer() {
                   </Link>
                 </li>
 
-                <li>
+                <li>  
                   <Link href="/services/web-development" className="relative inline-block text-white hover:text-gray-300 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:w-full">
                     Web Development
                   </Link>
@@ -293,7 +293,7 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="/developers/fullstack-developers" className="relative inline-block text-white hover:text-gray-300 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:w-full">
+                <a href="/developers/full-stack-developers" className="relative inline-block text-white hover:text-gray-300 transition-colors duration-300 after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-gradient-to-r after:from-blue-400 after:to-cyan-400 after:transition-all after:duration-300 hover:after:w-full">
                   Full Stack Developers
                 </a>
               </li>
@@ -317,7 +317,7 @@ export default function Footer() {
                 <p>
                   📞{" "}
                   <a
-                    href="tel:+917982980354"
+                    href="tel:+91987654321"
                     className="hover:text-white transition"
                   >
                     +91 9876543210

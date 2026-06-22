@@ -2,25 +2,25 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import CTA from "@/components/CTA";
 
-export default function AIDevelopersPage() {
+export default function ReactNativeDevelopersPage() {
   const services = [
-    "Custom AI Development",
-    "Generative AI Solutions",
-    "AI Chatbot Development",
-    "LLM Integration",
-    "Computer Vision Solutions",
-    "AI Maintenance & Support",
+    "Custom React Native App Development",
+    "Cross-Platform Mobile Apps",
+    "React Native UI/UX Development",
+    "App Migration to React Native",
+    "Third-Party API Integration",
+    "Maintenance & Support",
   ];
 
   const technologies = [
-    "OpenAI",
-    "LangChain",
-    "Python",
-    "TensorFlow",
-    "PyTorch",
-    "Vector Databases",
-    "AWS AI",
-    "Azure OpenAI",
+    "React Native",
+    "JavaScript",
+    "TypeScript",
+    "Expo",
+    "Redux",
+    "Firebase",
+    "REST APIs",
+    "AWS",
   ];
 
   return (
@@ -32,20 +32,20 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6 text-center">
 
           <span className="text-blue-400 uppercase tracking-widest text-sm">
-            Hire AI Developers
+            Hire React Native Developers
           </span>
 
           <h1 className="text-5xl lg:text-7xl font-bold mt-6">
             Expert
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
-              AI Developers
+              React Native Developers
             </span>
           </h1>
 
           <p className="text-gray-400 mt-6 max-w-3xl mx-auto text-lg">
-            Build intelligent AI-powered products with our experienced
-            AI developers. From Generative AI and ChatGPT integrations
-            to enterprise AI solutions, we help businesses innovate faster.
+            Build high-performance cross-platform mobile applications
+            for iOS and Android using React Native and modern mobile
+            development technologies.
           </p>
 
         </div>
@@ -56,15 +56,15 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold mb-8">
-            Why Hire AI Developers?
+            Why Hire React Native Developers?
           </h2>
 
           <p className="text-gray-400 text-lg leading-relaxed">
-            Our AI developers create intelligent systems that automate
-            workflows, improve decision-making, enhance customer experiences
-            and unlock business growth. We specialize in Generative AI,
-            Large Language Models (LLMs), AI chatbots, computer vision
-            and predictive analytics.
+            Our React Native developers build scalable mobile
+            applications using a single codebase for both Android
+            and iOS platforms. This reduces development cost,
+            speeds up delivery and ensures a consistent user
+            experience across devices.
           </p>
 
         </div>
@@ -75,7 +75,7 @@ export default function AIDevelopersPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <h2 className="text-5xl font-bold text-center mb-16">
-            AI Development Services
+            React Native Development Services
           </h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -130,19 +130,19 @@ export default function AIDevelopersPage() {
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                AI First
+                Cross Platform
               </h3>
               <p className="text-gray-400">
-                Modern AI solutions built for real business outcomes.
+                Single codebase for Android and iOS apps.
               </p>
             </div>
 
             <div className="p-8 rounded-3xl bg-white/5 border border-white/10 text-center">
               <h3 className="text-4xl font-bold text-blue-500 mb-4">
-                LLM
+                Fast
               </h3>
               <p className="text-gray-400">
-                Expertise in OpenAI, LangChain and Generative AI.
+                Faster development and quicker time to market.
               </p>
             </div>
 
@@ -151,7 +151,7 @@ export default function AIDevelopersPage() {
                 Scalable
               </h3>
               <p className="text-gray-400">
-                Enterprise-grade AI systems designed to scale.
+                Enterprise-grade mobile app architecture.
               </p>
             </div>
 
@@ -160,7 +160,7 @@ export default function AIDevelopersPage() {
                 24/7
               </h3>
               <p className="text-gray-400">
-                Continuous optimization and support services.
+                Continuous support and maintenance services.
               </p>
             </div>
 
@@ -181,22 +181,22 @@ export default function AIDevelopersPage() {
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">01</h3>
-              <p className="mt-4">Requirement Analysis</p>
+              <p className="mt-4">Requirement Discussion</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">02</h3>
-              <p className="mt-4">AI Expert Selection</p>
+              <p className="mt-4">Developer Selection</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">03</h3>
-              <p className="mt-4">AI Solution Development</p>
+              <p className="mt-4">Project Kickoff</p>
             </div>
 
             <div className="text-center">
               <h3 className="text-5xl font-bold text-blue-500">04</h3>
-              <p className="mt-4">Deployment & Optimization</p>
+              <p className="mt-4">Development & Delivery</p>
             </div>
 
           </div>
@@ -216,35 +216,36 @@ export default function AIDevelopersPage() {
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                What AI solutions do you develop?
+                Why choose React Native?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                We develop AI chatbots, Generative AI applications,
-                recommendation engines, computer vision systems,
-                predictive analytics and custom AI solutions.
+                React Native enables faster development with a
+                single codebase while delivering near-native
+                performance on both Android and iOS.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Can you integrate ChatGPT into our product?
+                Do you provide app store deployment support?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we integrate OpenAI, GPT models and custom LLMs
-                into web, mobile and enterprise applications.
+                Yes, we handle App Store and Play Store
+                submissions, updates and deployment support.
               </p>
             </div>
 
             <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
               <h3 className="font-bold">
-                Do you provide AI model maintenance?
+                Can you migrate an existing app to React Native?
               </h3>
 
               <p className="text-gray-400 mt-2">
-                Yes, we provide monitoring, optimization,
-                retraining and long-term AI support services.
+                Yes, we help businesses migrate native or hybrid
+                applications to React Native for better scalability
+                and reduced maintenance costs.
               </p>
             </div>
 
